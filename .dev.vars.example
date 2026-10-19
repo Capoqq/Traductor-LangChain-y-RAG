@@ -1,0 +1,7 @@
+# Mantén credenciales solo en .dev.vars o como secretos de Wrangler.
+# Genera una contraseña aleatoria de al menos 32 caracteres; sustituye este ejemplo.
+APP_ACCESS_PASSWORD=REEMPLAZAR_POR_UN_SECRETO_ALEATORIO_DE_32_CARACTERES
+APP_ENV=development
+TRANSLATION_MODEL=@cf/zai-org/glm-4.7-flash
+STT_MODEL=@cf/openai/whisper-large-v3-turbo
+ALLOWED_ORIGIN=http://localhost:5173

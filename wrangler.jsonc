@@ -1,0 +1,44 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "ai-live-translator",
+	"main": "src/server/index.ts",
+	"compatibility_date": "2026-10-15",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"ai": {
+		"binding": "AI",
+		"remote": true
+	},
+	"assets": {
+		"binding": "ASSETS",
+		"not_found_handling": "single-page-application",
+		"run_worker_first": [
+			"/api/*"
+		]
+	},
+	"vars": {
+		"APP_ENV": "production",
+		"TRANSLATION_MODEL": "@cf/zai-org/glm-4.7-flash",
+		"STT_MODEL": "@cf/openai/whisper-large-v3-turbo"
+	},
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "GLOSSARY_DB",
+			"database_name": "ai-live-translator-glossary",
+			"database_id": "3345982c-17a7-4883-9c5d-a92a0afce560",
+			"migrations_dir": "migrations",
+			"remote": true
+		}
+	],
+	"vectorize": [
+		{
+			"binding": "GLOSSARY_INDEX",
+			"index_name": "ai-live-translator-glossary",
+			"remote": true
+		}
+	]
+}

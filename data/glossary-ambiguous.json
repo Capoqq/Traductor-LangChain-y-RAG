@@ -1,0 +1,35 @@
+{
+  "title": "Ejemplos de sentidos ambiguos para probar el traductor",
+  "entries": [
+    {
+      "sourceLanguage": "en", "targetLanguage": "es", "sourceTerm": "charge", "preferredTranslation": "cobro",
+      "domain": "pagos", "example": "The charge appeared twice on my card.",
+      "notes": "Importe cargado a una cuenta o tarjeta. Ejemplo redactado para esta aplicación."
+    },
+    {
+      "sourceLanguage": "en", "targetLanguage": "es", "sourceTerm": "charge", "preferredTranslation": "carga",
+      "domain": "baterías", "example": "The battery has a low charge.",
+      "notes": "Energía almacenada en una batería. Ejemplo redactado para esta aplicación."
+    },
+    {
+      "sourceLanguage": "en", "targetLanguage": "es", "sourceTerm": "bank", "preferredTranslation": "banco",
+      "domain": "finanzas", "example": "The bank approved the loan.",
+      "notes": "Entidad financiera. Ejemplo redactado para esta aplicación."
+    },
+    {
+      "sourceLanguage": "en", "targetLanguage": "es", "sourceTerm": "bank", "preferredTranslation": "orilla",
+      "domain": "geografía", "example": "We sat on the river bank.",
+      "notes": "Borde de un río. Ejemplo redactado para esta aplicación."
+    },
+    {
+      "sourceLanguage": "en", "targetLanguage": "es", "sourceTerm": "current", "preferredTranslation": "corriente",
+      "domain": "electricidad", "example": "The current flows through the wire.",
+      "notes": "Flujo de carga eléctrica. Ejemplo redactado para esta aplicación."
+    },
+    {
+      "sourceLanguage": "en", "targetLanguage": "es", "sourceTerm": "current", "preferredTranslation": "actual",
+      "domain": "tiempo", "example": "The current version is available.",
+      "notes": "Que corresponde al momento presente. Ejemplo redactado para esta aplicación."
+    }
+  ]
+}

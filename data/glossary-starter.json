@@ -1,0 +1,21 @@
+{
+  "title": "Glosario inicial de tecnología e IA (inglés ↔ español)",
+  "source": "Tesauro de la UNESCO",
+  "sourceUrl": "https://vocabularies.unesco.org/en/about",
+  "license": "CC BY-SA 3.0 IGO",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+  "adaptation": "Selección de equivalencias; las traducciones inversas se generan para esta aplicación. No se reproducen definiciones de la fuente.",
+  "pairs": [
+    { "en": "artificial intelligence", "es": "inteligencia artificial", "concept": "3052" },
+    { "en": "automatic translation", "es": "traducción automática", "concept": "3410" },
+    { "en": "data processing", "es": "procesamiento de datos", "concept": "522" },
+    { "en": "computer programming", "es": "programación informática", "concept": "521" },
+    { "en": "computational linguistics", "es": "lingüística informática", "concept": "3411" },
+    { "en": "information retrieval", "es": "recuperación de información", "concept": "514" },
+    { "en": "online searching", "es": "búsqueda en línea", "concept": "4479" },
+    { "en": "encoding", "es": "codificación", "concept": "5530" },
+    { "en": "digitization", "es": "digitalización", "concept": "7411" },
+    { "en": "data analysis", "es": "análisis de datos", "concept": "2214" },
+    { "en": "open source software", "es": "software de código abierto", "concept": "17094" }
+  ]
+}
